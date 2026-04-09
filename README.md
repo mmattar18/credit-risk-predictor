@@ -45,6 +45,7 @@ UCI Default of Credit Card Clients — 30,000 clients from Taiwan (2005).
 
 ```bash
 pip install -r requirements.txt
+python src/download_data.py
 python src/train.py
 jupyter notebook notebooks/credit_default_analysis.ipynb
 ```
